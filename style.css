@@ -1,0 +1,123 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Poppins:wght@500&display=swap');
+    input
+    {
+    text-align: right;
+    }
+    html {
+      height: 100%;
+    }
+    body {
+      margin:0;
+      padding:0;
+      font-family: sans-serif;
+      background: linear-gradient(#141e30, #243b55);
+    }
+
+    .login-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: auto;
+      width: 600px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      background: rgba(0,0,0,.5);
+      box-sizing:500px;
+      box-shadow: 0 15px 25px rgba(0,0,0,.6);
+      border-radius: 10px;
+    }
+
+    .login-box h2 {
+      margin: 0 0 30px;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+    }
+
+    .login-box .user-box {
+      position: relative;
+    }
+
+    .login-box .user-box input {
+      width: 100%;
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      outline: none;
+      background: transparent;
+    }
+    .login-box .user-box label {
+      position: absolute;
+      top:0;
+      left: 0;
+      font-size: 16px;
+      color: #03e9f4;;
+      pointer-events: none;
+      transition: .5s;
+    }
+
+    .login-box .user-box input:focus ~ label,
+    .login-box .user-box input:valid ~ label {
+      top: -20px;
+      left: 0;
+      color: #03e9f4;
+      font-size: 12px;
+    }
+
+    .login-box form a {
+      position: relative;
+      display: inline-block;
+      color: #03e9f4;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: .5s;
+       letter-spacing: 4px
+    }
+
+    .login-box a:hover {
+      background: #03e9f4;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+    }
+    .neon {
+      font-family: Poppins;
+      letter-spacing: 1em;
+      text-shadow:
+       0 0 5px #fff,
+       0 0 10px #fff,
+       0 0 20px #fff,
+       0 0 40px #0ff,
+       0 0 80px #0ff,
+       0 0 90px #0ff,
+       0 0 100px #0ff,
+       0 0 150px #0ff;
+   }
+   .result
+   {
+     margin-top: 5rem;
+     color: #fff;
+     width: 100%;
+   }
+   .result span {
+     color: #03e9f4;
+   }
+   .btn-1 {
+      background: rgb(0,172,238);
+      background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+      border: none;
+      border-radius: 18px;
+      height: 50px;
+      width: 100%;
+      font-size: 16px;
+      color:#fff;
+      text-align: center;
+      letter-spacing: 0.5em;
+}
